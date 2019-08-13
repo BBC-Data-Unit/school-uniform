@@ -1,0 +1,121 @@
+<outwitAutomator>
+<documentproperties>
+<active>true</active>
+<url>file://</url>
+<masterId>{e666c15b-703c-454e-96e7-7c5f9fa454d5}</masterId>
+<name>facebook groups</name>
+<version>1.0</version>
+<versionId>{e666c15b-703c-454e-96e7-7c5f9fa454d5}</versionId>
+<automatorType>scraper</automatorType>
+<kernelVersion>8.0.0.58</kernelVersion>
+<creationOutfit>OutWit Hub</creationOutfit>
+<author />
+<company />
+<created>2019-07-31T11:26:12+01:00</created>
+<lastModified>2019-07-31T12:11:29+01:00</lastModified>
+<comments />
+<options /><hash>2V2aMGeeuNzAa4rr+47T5g==</hash>
+</documentproperties>
+<data>
+<line>
+<ok>true</ok>
+<description>Name</description>
+<before>&lt;p class="p20"&gt;</before>
+<after>&lt;/p&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>false</ok>
+<description>Group members</description>
+<before>Group · </before>
+<after> members</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>false</ok>
+<description>Posts per...</description>
+<before>members · </before>
+<after>&lt;/span</after>
+<format></format>
+<replace></replace>
+<separator> posts a </separator>
+<labels>posts, per</labels>
+</line>
+<line>
+<ok>false</ok>
+<description>Location</description>
+<before>&lt;p class="p24"&gt;&lt;span class="s26"&gt;</before>
+<after>&lt;/span</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>false</ok>
+<description>Minus buy and sell</description>
+<before>Buy and Sell · </before>
+<after> · </after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Likes</description>
+<before>&gt;</before>
+<after> like</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>place</description>
+<before> like this</before>
+<after>&lt;a</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Other category</description>
+<before>&lt;/a&gt; · </before>
+<after>&lt;/p</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Category</description>
+<before>places/intersect/"&gt;&lt;span class="s26"&gt;</before>
+<after>&lt;/</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Description</description>
+<before>&lt;span class="s27"&gt;</before>
+<after>&lt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+</data>
+</outwitAutomator>
